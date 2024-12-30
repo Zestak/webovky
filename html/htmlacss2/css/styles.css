@@ -21,6 +21,7 @@ header {
 nav ul {
   float: right;
   margin-right: 2rem;
+  margin-top: 1rem;
 }
 nav ul li {
   display: inline-block;
