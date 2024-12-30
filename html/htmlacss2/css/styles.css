@@ -20,8 +20,12 @@ header {
 
 nav ul {
   float: right;
-  margin-right: 2rem;
-  margin-top: 1rem;
+margin-left: 28%;
+margin: auto;
+  margin-top: .5rem;
+  position: fixed;
+  z-index: 100;
+
 }
 nav ul li {
   display: inline-block;
@@ -53,7 +57,14 @@ header h2 {
   transform: translate(-50%, -50%);
   font-size: 2rem;
 }
-
+.nav-background {
+  width: 100%;
+  height:3.5rem;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.746);
+  z-index: 50;
+  border-bottom: .2rem dotted white
+}
 .headertext h2 {
   color: #fff;
   font-size: 2.4rem;
@@ -101,9 +112,12 @@ header h2 {
 
 /* about us */
 
+.empty-space{
+  height:4rem;
+}
 .main-heading h2 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0rem;
   font-size: 2rem;
 }
 .main-heading h2:after {
@@ -164,6 +178,7 @@ div.pizza-text {
 .pizza-text p {
   font-size: 1.165rem;
   display: flex;
+  font-family:Verdana, Tahoma, sans-serif ;
 }
 .ref {
   background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
@@ -290,3 +305,5 @@ input[type="submit"]:hover {
   transition: all linear 0.25s;
   color: #ff0000;
 }
+
+

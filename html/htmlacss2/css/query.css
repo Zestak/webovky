@@ -123,6 +123,16 @@
     .clearfix {
         margin-left: auto;
     }
+nav ul {
+    margin-top:.5vw;
+}
+nav ul li a:link, nav ul li a:visited {
+    font-size: calc(3.5vw + .16rem);
+    /* font-size: 4vw; */
+ 
+}
+
+
 }
 
 /*
@@ -143,6 +153,11 @@
     .one-ref:nth-child(3) {
         display: none;
     }
+
+
+
+
+
 }
 
 /*

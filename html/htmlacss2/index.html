@@ -10,21 +10,25 @@
    <link rel="stylesheet" href="css/lightbox.min.css">
    <script src="JS/lightbox-plus-jquery.min.js"></script>
 
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
     <title>Negr bagr Jaromír Jágr</title>
 </head>
 <body style="overflow-x: hidden;">
     <header>
+<div class="nav-background">
 
+</div>
 <!-- <div id ="logo">
     <img src="img/logo3.png" alt="">
 </div> -->
-<nav>
+<nav href="#our-pizza" >
 <ul>
-    <li><a href="#">Jedna</a></li>
-    <li><a href="#">Dva</a></li>
-    <li><a href="#">Tri</a></li>
-    <li><a href="#">ctyri</a></li>
-    <li><a href="#">pet</a></li>
+    <li><a href="#our-pizza">Naše pizza</a></li>
+    <li><a href="#about-our-pizza">O naší pizze</a></li>
+    <li><a href="#ref">Reference</a></li>
+    <li><a href="#Photos">Fotogalerie</a></li>
+    <li><a href="#contact">Kontakt</a></li>
 </ul>
 </nav>
 
@@ -38,9 +42,11 @@ Roztančíme&nbsp;vaše chuťové buňky
     </header>
 
     <main>
+        <div class="empty-space" id = "our-pizza"></div>
+<section class="about-us row jq--scroll-our-pizza" >
+   
 
-<section class="about-us row">
-    <div class="main-heading">  
+    <div class="main-heading"  >  
     <h2>Naše pizza</h2>
     </div>
 </section>
@@ -56,8 +62,9 @@ Roztančíme&nbsp;vaše chuťové buňky
     </div>
 
 </div>
- 
+
 <section class="our-pizza row">
+    <div class="empty-space"id="about-our-pizza"></div>
 <div class="main-heading"><h2>O naší pizze</h2></div>
 
 <div class="pizza-info">
@@ -109,7 +116,8 @@ Roztančíme&nbsp;vaše chuťové buňky
 
 
 <section class="ref">    
-    <div class="main-heading">
+    <div class="empty-space"id="ref"></div>
+    <div class="main-heading" id="ref">
     <h2>co o nás řekli zákazníci</h2>
     </div>
 
@@ -158,10 +166,11 @@ Roztančíme&nbsp;vaše chuťové buňky
 
 
 <section class="photo-gallery">
+    <div class="empty-space"id="Photos"></div>
     <div class="main-heading">
         <h2>Co u nás můžete ochutnat</h2>
     </div>
-
+    
     <div class="photos row">
         <ul class="photo-segment">
             <li class="col span-1-of-2"><a href="img/pizza1.jpg" data-lightbox="mygallery" data-title="pizza se sýrem">
@@ -186,7 +195,8 @@ Roztančíme&nbsp;vaše chuťové buňky
 
 
 <section>
-<div class="main-heading">
+    
+<div class="main-heading" id="contact">
     <h2>Zeptejte se nás na cokoli</h2>
 </div>
 
@@ -216,9 +226,48 @@ Roztančíme&nbsp;vaše chuťové buňky
 <div class="footer-text">
 Copyright &copy; 2024 Pizza nigga company. Všechna práva vyhrazena
 </div>
+<a href="#top" class="back-to-top" id="back-to-top">Nahoru</a>
+
+<style>
+    #back-to-top {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        display: block;
+        z-index: .10;
+        background-color: #960000;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    window.addEventListener("scroll", function(){
+        if (window.pageYOffset > 0) {
+            document.getElementById("back-to-top").style.display = "block";
+        } else {
+            document.getElementById("back-to-top").style.display = "none";
+        }
+    });
+    
+    document.getElementById("back-to-top").addEventListener("click", function(e){
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+
 
 </footer>
-
+ 
 
 
     
