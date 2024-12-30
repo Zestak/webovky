@@ -1,0 +1,81 @@
+body {
+    padding-top: 5rem;
+    background-color: 	rgb(255, 255, 255);
+    display:flex;
+    flex-direction: column;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.main1{
+    background-color: rgb(220, 220, 220);
+    background: linear-gradient(rgba(0, 0, 0, 0.244), rgb(0, 0, 0)),
+    url("../img/filler1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size:cover;
+
+}
+.options{
+    color: rgb(233, 233, 233);
+    display:flex;  
+    flex-direction:grid;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    padding:2rem;
+    width: 100%;
+
+}
+.option1{
+
+    
+}
+h1 {
+    color: rgb(233, 233, 233);
+    /* border: 2px solid red ; */
+
+}
+h2 {
+    color: rgb(233, 233, 233);
+    /* border: 2px solid red ; */
+
+}
+p {
+    color: rgb(0, 161, 30);
+}
+.content {
+    /* margin: 20px;  */
+/* background-color: rgb(218, 218, 218); */
+background-image: url(filler1.jpg);
+
+}
+
+.about-me{
+    /* background-color: rgb(220, 220, 220); */
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.benefits{  
+
+}
+
+
+.flow{
+    display:flex;
+    flex-direction: column;
+    /* padding: 20px; */
+  flex-wrap: wrap;
+  font-size: 18px  ;
+    border: 2px solid red;
+}
+.flow1, .flow2, .flow3, .flow4{
+    padding:5px;
+
+}
+
+h1, h2{
+    padding: 20px;
+}

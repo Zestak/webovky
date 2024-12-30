@@ -1,0 +1,88 @@
+main{
+   min-height: 100vh;
+   background: linear-gradient(rgb(16, 0, 33), rgb(31, 0, 93), rgb(8, 0, 24));
+    display:flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.delete-form{
+animation: shadow .02s alternate infinite;
+}
+
+.delete-form form {
+    width:400px;
+    height: 200px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.delete-form p {
+    color:white;
+    font-size:24px;
+    margin-bottom:20px;
+
+}
+.btns {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+transition: all 1s linear;
+
+}
+.btns button {
+color:white;
+background: red;
+padding: 10px 20px;
+border:none;
+border-radius: 5px;
+cursor: pointer;
+font-size:24px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btns a {
+text-decoration: none;
+color:white;
+background-color: #a17e20;
+padding: 10px 20px;
+border-radius: 5px;
+font-size:24px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btns a:hover{
+    background: rgba(220, 198, 34, 0.709);
+box-shadow: 0px 0px 10px rgb(255, 255, 0, 0.7);
+}
+.btns button:hover{
+    background: rgba(252, 0, 0, 0.7);
+box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.7);
+}
+
+.error-box h1{
+    color:white;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+
+@keyframes shadow{
+    0%{
+        box-shadow: 0px 0px 1px red;
+        border-radius: 10px;
+    }
+
+    100%{
+        box-shadow: 0px 0px 20px red;
+        border-radius: 10px;
+    }
+}
+

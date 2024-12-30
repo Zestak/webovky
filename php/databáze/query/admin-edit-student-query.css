@@ -1,0 +1,16 @@
+@media (max-width:550px)
+{
+   form{width:90%;
+
+    flex-direction: column;
+}form input 
+form textarea {
+    text-align: center;
+
+}
+form textarea{
+    width:230px;
+    height: 160px;
+}
+
+}

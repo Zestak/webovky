@@ -1,0 +1,84 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(black, blueviolet, black);
+}
+.upload-photos{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upload-photos h1{ 
+margin-top:20px;
+}
+
+.upload-photos form {
+    display:flex;
+    flex-direction: column;
+}
+#choose-file-text {
+font-size: 20px;
+text-align: center;
+background: rgba(79, 0, 206, 0.639); 
+color: white;
+margin-top: 15px;
+border: none;
+padding: 5px 10px;
+cursor: pointer;    
+border-radius: 5px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#choose-file{
+    display: none; 
+}
+
+.upload-file {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(79, 0, 206, 0.888); 
+    color:white;
+    border:none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;    
+}
+
+    /* images section */
+.images article{
+display: flex;
+flex-direction:row;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+
+.images img{
+    width: 300px;
+}
+
+.images-btn {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.images-btn a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.images-btn-download{
+background-color: rgba(199, 164, 26, 0.716);
+color: white
+}
+
+.images-btn-delete{
+background-color: rgb(186, 0, 0);
+color: white;
+
+}

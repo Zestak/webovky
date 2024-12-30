@@ -1,0 +1,172 @@
+/*
+ * Media queries for responsive design
+ */
+
+/*
+ * At screen sizes of 1190px or less, reduce the right and left margins of
+ * .photo-segment elements to 0.5% to prevent them from becoming too wide.
+ */
+@media (max-width: 1190px) {
+    .photo-segment {
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+}
+
+/*
+ * At screen sizes of 800px or less, make the following changes to the layout
+ */
+@media (max-width: 800px) {
+    /*
+     * Reduce the font size of paragraph text in .one-ref elements to
+     * 1.5vw + 0.75rem
+     */
+    .one-ref p {
+        font-size: calc(1.5vw + 0.75rem);
+    }
+
+    /*
+     * Make each list item in .photo-segment elements take up the full
+     * width of the parent element
+     */
+    .photo-segment li {
+        width: 100%;
+    }
+
+    /*
+     * Reduce the width of the .our-pizza element to 98% of the parent element
+     */
+    .our-pizza.row {
+        width: 98%;
+    }
+
+    /*
+     * Make the image in .photo-name elements take up 20% of the parent element's
+     * width plus 3rem, and center it horizontally
+     */
+    .photo-name img {
+        display: flex;
+        width: calc(20% + 3rem);
+        justify-content: center;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    /*
+     * Make the first child element of .pizza-info elements take up 98% of the
+     * parent element's width
+     */
+    .pizza-info .span-1-of-2 {
+        width: 98%;
+    }
+
+    /*
+     * Make the image in .pizza-info elements take up 100% of the parent
+     * element's width, and center it horizontally
+     */
+    .pizza-info img {
+        width: 100%;
+        margin-left: 1%;
+        height: auto;
+    }
+
+    /*
+     * Remove the left margin from .photo-segment elements
+     */
+    .photo-segment .col {
+        margin-left: 0;
+    }
+
+    /*
+     * Remove the right and left margins from .photo-segment elements
+     */
+    .photo-segment {
+        margin-right:0;
+        margin-left:0;
+    }
+
+    /*
+     * Increase the left margin of paragraph text in .pizza-text elements to
+     * 3.5rem, and increase the font size to 1.2rem
+     */
+    .pizza-text p {
+        margin-left: 3.5rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    /*
+     * Increase the font size of headings in .headertext elements to 2.2rem,
+     * and uppercase the text
+     */
+    .headertext h2 {
+        color: #fff;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.4rem;
+    }
+
+    /*
+     * Reduce the padding of .btn elements to 0.8rem 1.418rem, and reduce
+     * the font size to 1.3rem
+     */
+    .btn {
+        padding: 0.8rem 1.418rem;
+        font-size: 1.3rem;
+    }
+
+    /*
+     * Set the left margin of .pizza-text and .clearfix elements to auto
+     */
+    .pizza-text,
+    .clearfix {
+        margin-left: auto;
+    }
+}
+
+/*
+ * At screen sizes of 762px or less, make the following changes to the layout
+ */
+@media (max-width: 762px) {
+    /*
+     * Reduce the width of the first child element of .col elements to 49.2% of
+     * the parent element
+     */
+    .col.span-1-of-3.one-ref {
+        width: 49.2%;
+    }
+
+    /*
+     * Hide the third .one-ref element
+     */
+    .one-ref:nth-child(3) {
+        display: none;
+    }
+}
+
+/*
+ * At screen sizes of 420px or less, make the following changes to the layout
+ */
+@media (max-width: 420px) {
+    /*
+     * Reduce the font size of headings in .headertext elements to 1.6rem, and
+     * uppercase the text
+     */
+    .headertext h2 {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        word-spacing: 0.3rem;
+    }
+
+    /*
+     * Reduce the padding of .btn elements to 0.6rem 1rem, and reduce the font
+     * size to 0.95rem
+     */
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
+    }
+}
+
