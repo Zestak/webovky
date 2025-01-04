@@ -52,4 +52,9 @@
         });
     });
 })(jQuery);
+$(".jq--nav-icon").click(function(){
+    console.log("Click event triggered");
+    $(".nav-background").fadeToggle(200);
+  });
+(jQuery);
 

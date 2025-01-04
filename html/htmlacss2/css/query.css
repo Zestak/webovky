@@ -13,6 +13,59 @@
     }
 }
 
+
+@media (max-width: 850px){
+    nav ul li {
+    display: block
+    
+    }
+    nav ul {
+        display: none;
+    }
+    .mobile-nav-icon{
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 1rem;
+        position: fixed;
+        display: block;
+        right: 0;
+        margin: .16rem;
+          padding: .5rem;
+          padding-top:.4rem ;
+          width: 3rem;
+          height:3rem;
+        z-index: 10005
+        } 
+
+    .nav-background {
+ 
+     /* display: none; */
+    
+      }
+    nav ul li a {
+        border-bottom: transparent;
+    }
+
+    .mobile-nav-back{
+        z-index: 50;
+        height:200px;
+        /* display: none; */
+        position: fixed;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.85);
+border-bottom: .2rem solid rgb(255, 255, 255);
+    }
+    .mobile-nav-icon{
+         z-index: 200; 
+    }
+    nav ul {
+        /* display: none; */
+
+    }
+}
+
+
+
 /*
  * At screen sizes of 800px or less, make the following changes to the layout
  */
@@ -123,14 +176,12 @@
     .clearfix {
         margin-left: auto;
     }
-nav ul {
-    margin-top:.5vw;
-}
-nav ul li a:link, nav ul li a:visited {
-    font-size: calc(3.5vw + .16rem);
-    /* font-size: 4vw; */
- 
-}
+    /* nav ul {
+        margin-top:.5vw;
+    }
+    nav ul li a:link, nav ul li a:visited {
+        font-size: calc(3.5vw + .16rem);
+    } */
 
 
 }
