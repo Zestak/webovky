@@ -122,9 +122,19 @@ header h2 {
 display: none;
 } 
 
-.mobile-nav-back{
-  /* display:none; */
-}
+  /* .js-nav-open.nav-background {
+    display: block !important;
+    border:#ff0000 solid 0.5rem !important;
+  } */
+  /* .js-nav-open.mobile-nav-back {
+    display: block !important; 
+    border:#ff0000 solid 0.5rem !important;
+  } */
+  /* .js-nav-open.nav ul li{
+    display: block !important ;
+    border:#ff0000 solid 0.5rem !important;
+  } */
+
 
 .empty-space{
   height:4rem;
