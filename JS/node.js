@@ -1,0 +1,1 @@
+console.log("učime se javascript")
