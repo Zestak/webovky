@@ -76,24 +76,6 @@ $(".jq--nav-icon").click(function(){
 
   });
 
-        // $(".jq--nav-icon").click(function(){
-            
-        //     $(".nav-background ").fadeToggle(200);
-        //     $(".mobile-nav-back .js-nav-open").slideToggle(200);
-        //     $("nav ul .js-nav-open").slideToggle(200);
-          
-        //   });
-
-  
-        //   $(".jq--nav-icon").click(function(){
-            
-        //     $(".nav-background ").fadeToggle(200);
-        //     $(".mobile-nav-back ").slideToggle(200);
-        //     $("nav ul").slideToggle(200);
-          
-        //   });
-
-  
 
 
 
