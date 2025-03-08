@@ -79,3 +79,8 @@ background-image: url(filler1.jpg);
 h1, h2{
     padding: 20px;
 }
+.filler{
+    width: 100%;
+    font-size: 10rem;
+    background-color: rgb(255, 255, 255);
+}

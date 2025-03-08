@@ -29,7 +29,10 @@
       }
 
 header {
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 background-color: #66b960;
 
 height: 5rem;

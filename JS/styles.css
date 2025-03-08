@@ -1,0 +1,40 @@
+.MyBtn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 0.125rem solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: blue;
+    margin: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.MyBtn:hover {
+    background-color: white;
+    color: blue;
+}
+.MyBtn:active {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#idCrim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+   
+}
