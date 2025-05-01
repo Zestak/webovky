@@ -31,10 +31,3 @@ body {
     background-color: #f0f0f0;
 }
 
-#idCrim {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-   
-}
