@@ -45,13 +45,13 @@
         padding: 2.5rem 3rem;
         display: grid;
         gap: 2.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        background: linear-gradient(120deg, #232526 0%, #414345 100%);
+  grid-template-columns: repeat(2, minmax(14rem, 2fr ));
+        background: linear-gradient(120deg, #24ad4b 0%, #0f2811 100%);
         color: #f3f3f3;
-        border-radius: 1.5rem 1.5rem 0 0;
+        border-radius: .5rem .5rem 0 0;
         box-shadow: 0 -8px 32px rgba(0,0,0,0.25);
         font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-        font-size: 1.1rem;
+    
         letter-spacing: 0.01em;
     }
 
@@ -65,7 +65,7 @@
 
     .Footer .email, .Footer .phone {
         font-weight: 600;
-        font-size: 1.15rem;
+        font-size: 1.2rem;
         background: rgba(255,255,255,0.05);
         padding: 0.75rem 1rem;
         border-radius: 0.75rem;
@@ -81,9 +81,9 @@
 
     .Footer address {
         font-style: normal;
-        line-height: 1.6;
-        color: #e0e0e0;
-        font-size: 1rem;
+        line-height: 1.6rem;
+        color: #ffffff;
+        font-size: 1.1rem;
         margin-left: 0.25rem;
     }
 
@@ -96,9 +96,14 @@
     }
 
     .Footer a {
-        align-self: end;
-        justify-self: start;
-        margin-top: 1.5rem;
+        align-self: center;
+        justify-self: center;
+        width: 14rem;
+ display: block;
+ margin: 0 auto;
+     
+        text-align: center;
+   
         background: linear-gradient(90deg, #0077b5 60%, #00c6ff 100%);
         color: #fff;
         padding: 0.7rem 1.4rem;
@@ -108,7 +113,7 @@
         box-shadow: 0 2px 12px rgba(0,119,181,0.15);
         transition: background 0.2s, transform 0.2s;
         letter-spacing: 0.04em;
-        font-size: 1.08rem;
+        font-size: 1.2rem;
     }
 
     .Footer a:hover {
@@ -126,7 +131,7 @@
         }
         .Footer a {
             margin-top: 0.8rem;
-            width: 100%;
+           
             text-align: center;
         }
     }
